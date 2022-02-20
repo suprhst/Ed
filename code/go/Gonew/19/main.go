@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-
-func main(){
+func main() {
 
 	var a int
 	a = 25
@@ -12,18 +11,17 @@ func main(){
 
 	changrReferernce(&a)
 
-	
 }
 
-func changeValue(val int){
+func changeValue(val int) {
 	fmt.Println(val)
 	val = 20
-	fmt.Printf("A inside chgval func %d\n",val)
+	fmt.Printf("A inside chgval func %d\n", val)
 
 }
 
 func changrReferernce(val *int) {
 	fmt.Println(val)
 	*val = 200
-	fmt.Println("A inside change ref : ",val)
+	fmt.Println("A inside change ref : ", val)
 }

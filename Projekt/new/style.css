@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: honeydew;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.header {
+    padding: 0 45px;
+    background-color: #08c030;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+.navigation a:hover {
+    color: #c5cae9;
+    transform: rotate(360deg);
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navigation li {
+    margin-left: 20px;
+}
+.section {
+   padding: 100px 20px;
+   position: relative;
+   overflow: hidden;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: azure;
+    padding: 50px 80px;
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25),0 18px 36px -18px rgba(0,0,0, .3),0 -12px 36px -8px rgba(0,0,0, alpha0.025);
+    border-radius: 8px;
+    
+}
+
+.shapes {
+    transform: skewY(-12deg);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .8;
+    
+
+}
+.shape-one {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 5%;
+    background-color: lightskyblue;
+    height: 80px;
+}
+.shape-two {
+    position: absolute;
+    top: 180px;
+    left: 5%;
+    right: 0%;
+    background-color:lightseagreen;
+    height: 80px;
+}.shape-three {
+    position: absolute;
+    top: 260px;
+    left: 10%;
+    right: 0;
+    background-color: lightgoldenrodyellow;
+    height: 80px;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 4px;
+
+}
+
+button:hover {
+    color: rgb(47, 255, 134);
+
+}
