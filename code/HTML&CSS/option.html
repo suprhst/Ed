@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <div>
+            <input type="text" placeholder="Name" name="fullname" >
+            <input type="password" placeholder="Secret" name="Pass">
+            <input type="submit">
+            </div>
+        <div>
+            <input name="Group" type="radio" value="User">User
+            <input name="Group" type="radio" value="Admin">Admin
+        </div>
+        <div>
+            <input name="Department" list="departments" placeholder="Department">
+            <datalist id="departments">
+                <option value="Finance">
+                <option value="Marketing">
+                </option>    
+                </option>
+            </datalist>
+        </div>
+        </form>
+    </body>
+</html>
