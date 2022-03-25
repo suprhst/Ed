@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/snippy/__init__.py
+src/snippy/snippy.py
+src/snippy_suprhst.egg-info/PKG-INFO
+src/snippy_suprhst.egg-info/SOURCES.txt
+src/snippy_suprhst.egg-info/dependency_links.txt
+src/snippy_suprhst.egg-info/top_level.txt

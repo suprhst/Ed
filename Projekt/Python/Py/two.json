@@ -1,0 +1,12 @@
+{
+    "title"   : "Hello",
+    "Built"   : "2021",
+    "Release" :  1.0,
+    "contrib" : ["Mike","Tom","Tim","Andre"],
+    "Budget"  : null,
+    "credits" : {
+        "Leader"  : "Simon",
+        "Manager" : "Bill"
+    }
+
+}
